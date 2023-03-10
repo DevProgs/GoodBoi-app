@@ -13,7 +13,6 @@ img {
 
 
 nav {
-  border: 1px solid red;
   padding: 1.5625em 1.25em
 }
 
@@ -48,6 +47,16 @@ nav {
   border-radius: 30px;
 }
 
+.dog {
+  position: absolute;
+  border-radius: 15px;
+  padding: 0 .5em;
+}
+
+.like {
+  position: relative;
+  width: 300px;
+}
 
 
 
