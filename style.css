@@ -11,9 +11,12 @@ img {
   width: 100%;
 }
 
+
 nav {
-  height: 5vh;
+  border: 1px solid red;
+  padding: 1.5625em 1.25em
 }
+
 
 .container {
   max-width: 550px;
@@ -26,7 +29,6 @@ nav {
 }
 
 .nav-container {
-  padding: 1.5625em 1.25em;
   justify-content: space-between;
 }
 
@@ -45,6 +47,7 @@ nav {
   background: linear-gradient(270deg, #FA695A 0%, #F83375 100%);
   border-radius: 30px;
 }
+
 
 
 
