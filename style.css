@@ -6,8 +6,6 @@
   box-sizing: border-box;
 }
 
-
-
 img {
   display: block;
   width: 100%;
@@ -18,13 +16,16 @@ nav {
 }
 
 .container {
-  width: 100%;
   max-width: 550px;
   margin: 0 auto;
 }
 
-.nav-container {
+.nav-container,
+.nav--paw-container {
   display: flex;
+}
+
+.nav-container {
   padding: 1.5625em 1.25em;
   justify-content: space-between;
 }
@@ -39,7 +40,6 @@ nav {
 }
 
 .nav--paw-container {
-  display: flex;
   justify-content: center;
   padding: 10px 30px;
   background: linear-gradient(270deg, #FA695A 0%, #F83375 100%);
