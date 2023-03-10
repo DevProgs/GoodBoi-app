@@ -5,3 +5,46 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+
+
+img {
+  display: block;
+  width: 100%;
+}
+
+nav {
+  height: 5vh;
+}
+
+.container {
+  width: 100%;
+  max-width: 550px;
+  margin: 0 auto;
+}
+
+.nav-container {
+  display: flex;
+  padding: 1.5625em 1.25em;
+  justify-content: space-between;
+}
+
+.nav--account,
+.nav--chat {
+  max-width: 35px;
+}
+
+.nav--paw {
+  max-width: 20px;
+}
+
+.nav--paw-container {
+  display: flex;
+  justify-content: center;
+  padding: 10px 30px;
+  background: linear-gradient(270deg, #FA695A 0%, #F83375 100%);
+  border-radius: 30px;
+}
+
+
+
