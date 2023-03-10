@@ -55,7 +55,10 @@ nav {
 
 .like {
   position: relative;
-  width: 300px;
+  max-width: 260px;
+  transform: rotate(-30deg);
+  left: 1.75em;
+  top: 4.3em;
 }
 
 
