@@ -7,6 +7,7 @@
 }
 
 body {
+  font-family: 'Poppins', sans-serif;
   background: linear-gradient(180deg, #FFFFFF 0%, #F6F7FB 100%);
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -76,8 +77,7 @@ nav {
   margin: auto
 }
 
-.dog {
-  position: absolute;
+.dog__img {
   border-radius: 15px;
 }
 
@@ -85,9 +85,31 @@ nav {
   position: absolute;
   max-width: 230px;
   transform: rotate(-30deg);
-  left: 5%;
+  left: 1.75em;
   top: 4em;
 }
+
+.dog__info {
+  position: absolute;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 36px;
+  color: #F8F8F8;
+  left: .75em;
+  top: 21em;
+}
+
+.dog__intro {
+  position: absolute;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: #B7B7B7;
+  left: 1.05em;
+  top: 30em;
+}
+
+
 
 
 
