@@ -6,12 +6,16 @@
   box-sizing: border-box;
 }
 
+body {
+  background: linear-gradient(180deg, #FFFFFF 0%, #F6F7FB 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 
 img {
   display: block;
   width: 100%;
 }
-
 
 nav {
   padding: 1.5625em 1.25em
