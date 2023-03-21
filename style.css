@@ -6,6 +6,7 @@
   box-sizing: border-box;
 }
 
+
 img {
   display: block;
   width: 100%;
@@ -17,7 +18,7 @@ nav {
 }
 
 
-.container {
+.nav-container {
   max-width: 550px;
   margin: 0 auto;
 }
@@ -47,18 +48,41 @@ nav {
   border-radius: 30px;
 }
 
+
+
+/* .dog {
+  position: relative;
+  border-radius: 15px;
+  padding: 0 .5em;
+  max-width: 550px; 
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}  */
+
+.dog-container {
+  position: relative;
+  max-width: 550px;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto
+}
+
 .dog {
   position: absolute;
   border-radius: 15px;
-  padding: 0 .5em;
 }
 
 .like {
-  position: relative;
-  max-width: 260px;
+  position: absolute;
+  max-width: 230px;
   transform: rotate(-30deg);
-  left: 1.75em;
-  top: 4.3em;
+  left: 5%;
+  top: 4em;
 }
 
 
