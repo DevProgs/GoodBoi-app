@@ -1,9 +1,9 @@
 const likeBtn = () => {
-  console.log('like')
-}
+  console.log('test like');
+};
 
 const dislikeBtn = () => {
-  console.log('dislike')
-}
+  console.log('test dislike');
+};
 
 export {likeBtn, dislikeBtn}
