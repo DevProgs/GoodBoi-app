@@ -1,3 +1,5 @@
+import { handleLike, handleDislike } from './buttons.js';
+
 class Dog {
   constructor(data) {
     Object.assign(this, data);
@@ -10,12 +12,12 @@ class Dog {
       <p class="dog__intro">${bio}</p>
     `;
   }
-  getBtnHtml() {
-    return `
-      <button class="nope-btn"><img src="/images/cross.svg" alt="cross"></button>
-      <button class="like-btn"><img src="/images/heart.svg" alt="cross"></button>
-    `;
-  }
+  // getBtnHtml() {
+  //   return `
+  //     <button class="nope-btn"><img src="/images/cross.svg" alt="cross"></button>
+  //     <button class="like-btn"><img src="/images/heart.svg" alt="cross"></button>
+  //   `;
+  // }
 }
 
 export default Dog

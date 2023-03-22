@@ -1,9 +1,9 @@
-const likeBtn = () => {
+const handleLike = () => {
   console.log('test like');
 };
 
-const dislikeBtn = () => {
+const handleDislike = () => {
   console.log('test dislike');
 };
 
-export {likeBtn, dislikeBtn}
+export { handleLike, handleDislike };
