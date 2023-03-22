@@ -40,7 +40,9 @@ nav {
 .nav--account,
 .nav--chat {
   max-width: 35px;
+  cursor: pointer;
 }
+
 
 .nav--paw {
   max-width: 20px;
@@ -113,6 +115,7 @@ nav {
   margin-right: 1.25em;
   background-color: #FFF;
   transition: 0.3s;
+  cursor: pointer;
 }
 
 .nope-btn:hover,
