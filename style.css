@@ -88,7 +88,7 @@ nav {
   line-height: 36px;
   color: #F8F8F8;
   left: .75em;
-  top: 21em;
+  top: 20em;
 }
 
 .dog__intro {
@@ -97,7 +97,8 @@ nav {
   line-height: 32px;
   color: #B7B7B7;
   left: 1.05em;
-  top: 30em;
+  top: 29em;
+  max-width: 30ch
 }
 
 .button-container {
