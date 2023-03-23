@@ -1,4 +1,3 @@
-import { handleLike, handleDislike } from './buttons';
 import dogData from "./data";
 import Dog from "/Dog.js"
 
