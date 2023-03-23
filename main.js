@@ -2,25 +2,36 @@ import { handleLike, handleDislike } from './buttons';
 import dogData from "./data";
 import Dog from "/Dog.js"
 
-// const testBtn = document.querySelector('.nope-btn')
-// testBtn.addEventListener('click', handleDislike);
-document.querySelector('.nope-btn').addEventListener('click', () => {
-  console.log('test')
+const nopeBtn = document.querySelector('.nope-btn')
+const likeBtn = document.querySelector('.like-btn')
+
+likeBtn.addEventListener('click', (e) => {
+  doggo.hasBeenLiked = true
+  swipeDog()
 })
 
-const doggo = new Dog(dogData[0]);
+nopeBtn.addEventListener('click', (e) => {
+  swipeDog();
+});
 
-// const getNextDog = () => {
-//   const nextDog = dogData.shift()
-//   renderDog()
-//   return nextDog ? new Dog(nextDog) : {}
-// }
-
+const getNextDog = () => {
+  const nextDog = dogData.shift()
+  dogData.push(nextDog);
+  return nextDog
+}
 
 const renderDog = () => {
   document.getElementById('dog').innerHTML = doggo.getDogHtml();
-  // document.getElementById('btns').innerHTML = doggo.getBtnHtml();
 }
 
+const swipeDog = () => {
+  doggo.hasBeenSwiped = true
+  renderDog()
+  doggo = new Dog(getNextDog())
+  setTimeout(() => {
+    renderDog()
+  }, 1500)
+}
 
+let doggo = new Dog(getNextDog());
 renderDog()

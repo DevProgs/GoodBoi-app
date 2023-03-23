@@ -5,12 +5,20 @@ class Dog {
     Object.assign(this, data);
   }
   getDogHtml() {
-    const { name, avatar, age, bio, hasBeenSwiped, hasBeenLiked } = this;
+    const { name, avatar, age, bio } = this;
     return `
       <img class="dog__img" src="/${avatar}" alt="${name}">
       <h3 class="dog__info">${name}, ${age}</h3>
       <p class="dog__intro">${bio}</p>
     `;
+  }
+  getBadge() {
+    const {hasBeenLiked, hasBeenSwiped} = this
+    if (hasBeenSwiped) {
+      if (hasBeenLiked) {
+        return 
+      }
+    }
   }
   // getBtnHtml() {
   //   return `
