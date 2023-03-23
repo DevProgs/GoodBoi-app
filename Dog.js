@@ -1,5 +1,3 @@
-import { handleLike, handleDislike } from './buttons.js';
-
 class Dog {
   constructor(data) {
     Object.assign(this, data);
