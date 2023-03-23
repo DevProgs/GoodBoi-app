@@ -5,7 +5,7 @@ const nopeBtn = document.querySelector('.nope-btn')
 const likeBtn = document.querySelector('.like-btn')
 
 likeBtn.addEventListener('click', (e) => {
-  doggo.hasBeenLiked = true
+  dog.hasBeenLiked = true
   swipeDog()
 })
 
@@ -20,17 +20,17 @@ const getNextDog = () => {
 }
 
 const renderDog = () => {
-  document.getElementById('dog').innerHTML = doggo.getDogHtml();
+  document.getElementById('dog').innerHTML = dog.getDogHtml();
 }
 
 const swipeDog = () => {
-  doggo.hasBeenSwiped = true
+  dog.hasBeenSwiped = true
   renderDog()
-  doggo = new Dog(getNextDog())
+  dog = new Dog(getNextDog())
   setTimeout(() => {
     renderDog()
   }, 1500)
 }
 
-let doggo = new Dog(getNextDog());
+let dog = new Dog(getNextDog());
 renderDog()
