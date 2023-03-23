@@ -16,10 +16,15 @@ class Dog {
     const {hasBeenLiked, hasBeenSwiped} = this
     if (hasBeenSwiped) {
       if (hasBeenLiked) {
-        return 
+        return `<img class="like" src="/images/like-image.png" alt="">`
+      } else {
+        return `<img class="like" src="/images/nope-image.png" alt="">`;
       }
+    } else {
+      return
     }
   }
+  
   // getBtnHtml() {
   //   return `
   //     <button class="nope-btn"><img src="/images/cross.svg" alt="cross"></button>
