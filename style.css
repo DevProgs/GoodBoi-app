@@ -135,12 +135,17 @@ nav {
 }
 
 @media (max-width: 550px) {
+  .dog-container {
+    max-width: 325px;
+  }
+
   .dog__info {
-    top: 75%;
+    top: 78%;
     font-size: 1.5rem
   }
 
   .dog__intro {
-    top: 85%
+    top: 85%;
+    font-size: 1.25rem;
   }
 }
