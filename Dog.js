@@ -8,14 +8,14 @@ class Dog {
       if (hasBeenLiked) {
         return `
           <img class="dog__img" src="/${avatar}" alt="${name}">
-          <img class="like" src="/images/like-image.png" alt="like badge">
+          <img class="badge" src="/images/like-image.png" alt="like badge">
           <h3 class="dog__info">${name}, ${age}</h3>
           <p class="dog__intro">${bio}</p>
         `;
       } else {
         return `
           <img class="dog__img" src="/${avatar}" alt="${name}">
-          <img class="like" src="/images/nope-image.png" alt="nope badge">
+          <img class="badge" src="/images/nope-image.png" alt="nope badge">
           <h3 class="dog__info">${name}, ${age}</h3>
           <p class="dog__intro">${bio}</p>
         `;

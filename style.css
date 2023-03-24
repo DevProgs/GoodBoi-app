@@ -71,13 +71,13 @@ nav {
   border-radius: 15px;
 }
 
-.like,
+.badge,
 .dog__intro,
 .dog__info {
   position: absolute;
 }
 
-.like {
+.badge {
   max-width: 230px;
   transform: rotate(-30deg);
   left: 1.75em;
@@ -134,7 +134,12 @@ nav {
   box-shadow: 0px 10px 20px #CCF1E6;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 415px) {
+
+  .badge {
+    max-width: 175px;
+  }
+
   .dog-container {
     max-width: 325px;
   }
