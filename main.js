@@ -4,12 +4,12 @@ import Dog from "/Dog.js"
 const nopeBtn = document.querySelector('.nope-btn')
 const likeBtn = document.querySelector('.like-btn')
 
-likeBtn.addEventListener('click', (e) => {
+likeBtn.addEventListener('click', () => {
   dog.hasBeenLiked = true
   swipeDog()
 })
 
-nopeBtn.addEventListener('click', (e) => {
+nopeBtn.addEventListener('click', () => {
   swipeDog();
 });
 
