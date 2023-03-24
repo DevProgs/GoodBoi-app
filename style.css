@@ -13,6 +13,8 @@ body {
   background-attachment: fixed;
 }
 
+
+
 img {
   display: block;
   width: 100%;
@@ -82,13 +84,14 @@ nav {
   top: 4em;
 }
 
+
 .dog__info {
   font-weight: 600;
   font-size: 32px;
   line-height: 36px;
   color: #F8F8F8;
-  left: .75em;
-  top: 20em;
+  left: 5%;
+  top: 83%;
 }
 
 .dog__intro {
@@ -96,8 +99,8 @@ nav {
   font-size: 24px;
   line-height: 32px;
   color: #B7B7B7;
-  left: 1.05em;
-  top: 29em;
+  left: 5%;
+  top: 90%;
   max-width: 30ch
 }
 
@@ -130,8 +133,3 @@ nav {
   background: #DBFFF4;
   box-shadow: 0px 10px 20px #CCF1E6;
 }
-
-
-
-
-
